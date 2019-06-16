@@ -1,0 +1,46 @@
+html
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px 150px;
+  background-color: rgb(197, 56, 56);
+  height: 100vh;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 55%;
+  padding: 0 10px;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fde5e2;
+}
+
+.list-group-item {
+  background-color: #fde5e2;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #fff;
+}
+
+.media-body {
+  margin-left: 10px;
+}
